@@ -1,6 +1,6 @@
 {
-  "name": "with-typescript",
-  "version": "1.0.0",
+  "name": "daniellichtenstein.com",
+  "version": "0.0.1",
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -8,13 +8,14 @@
     "type-check": "tsc"
   },
   "dependencies": {
+    "@dwerthen/react-extension": "^0.0.9-rc1",
     "@types/styletron-engine-atomic": "^1.1.0",
-    "next": "9.5.3",
+    "next": "9.5.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.6.3",
-    "stilren": "^0.2.7",
+    "stilren": "0.3.0-rc2",
     "styletron-engine-atomic": "^1.4.6"
   },
   "devDependencies": {
