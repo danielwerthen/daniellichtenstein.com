@@ -1,9 +1,12 @@
 body {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
 }
 
 pre {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
 }
 
 h1,

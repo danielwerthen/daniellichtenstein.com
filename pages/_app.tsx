@@ -2,6 +2,7 @@ import { registerStilren } from "stilren";
 import React from "react";
 import App from "next/app";
 import { styletron } from "../styletron";
+import "./base.css";
 
 registerStilren({
   styletron,
