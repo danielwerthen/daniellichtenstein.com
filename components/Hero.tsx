@@ -6,7 +6,7 @@ export default function Hero(
     HTMLDivElement
   >
 ) {
-  return <div {...props} />;
+  return <div $margin="20vh 0" {...props} />;
 }
 
 Hero.Copy = function HeroCopy(
@@ -15,5 +15,14 @@ Hero.Copy = function HeroCopy(
     HTMLParagraphElement
   >
 ) {
-  return <p $margin="auto" $maxWidth="50vw" {...props} />;
+  return (
+    <p
+      $marginLeft="auto"
+      $marginRight="auto"
+      $maxWidth="50vw"
+      $mobileMaxWidth="80vw"
+      $fontSize="24px"
+      {...props}
+    />
+  );
 };

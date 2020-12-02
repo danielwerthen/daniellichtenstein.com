@@ -40,28 +40,28 @@ const IndexPage = () => (
             $textDecoration="underline"
             $fontSize="24px"
           >
-            Blog
+            Writings
           </a>
         </Link>
         <a
-          href="https://github.com/danielwerthen"
+          href="https://github.com/danielwerthen?tab=repositories"
           $color={colors[4]}
           $textDecoration="underline"
           $fontSize="24px"
         >
-          Github
+          Open Source
         </a>
       </div>
     </div>
     <Hero>
-      <Hero.Copy $fontWeight="bold" $textAlign="center" $marginBottom=".5em">
-        Would you like to create something?
+      <Hero.Copy $fontWeight="bold" $textAlign="center" $marginBottom=".66em">
+        Let's build something together!
       </Hero.Copy>
       <Hero.Copy>
         With 10 years of experience as software architect and developer, I help
-        people and companies build software that make a difference. To me, a{" "}
-        <b>beautiful user experience</b> is the goal, and that goal means a
-        whole lot more than a set of tastefully arranged pixels on a screen.
+        people and companies build software that make a difference. To me,
+        building software has always been about turning that which is{" "}
+        <span $whiteSpace="nowrap">complicated—simple!</span>
       </Hero.Copy>
     </Hero>
   </>
