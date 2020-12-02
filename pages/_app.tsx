@@ -6,6 +6,9 @@ import "./base.css";
 
 registerStilren({
   styletron,
+  mediaPrefixes: {
+    mobile: "(max-width: 640px)",
+  },
 });
 
 export default class MyApp extends App {

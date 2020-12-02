@@ -1,8 +1,11 @@
 body {
   font-family: "Montserrat", sans-serif;
-  width: 100vw;
-  min-height: 100vh;
+  width: calc(100% - 2em);
+  min-height: 100%;
   margin: 0;
+  background-color: #333745;
+  color: #f8f4f9;
+  padding: 1em;
 }
 
 pre {
