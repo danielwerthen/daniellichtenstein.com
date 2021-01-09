@@ -21,3 +21,8 @@ h6 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
 }
+
+a,
+a:active {
+  color: inherit;
+}
