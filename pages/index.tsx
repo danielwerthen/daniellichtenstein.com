@@ -64,43 +64,32 @@ const IndexPage = () => (
         specifically, my specialty is crafting great user experiences.
       </Hero.Copy>
     </Hero>
-    <Hero>
-      <div
-        $display="flex"
-        $mobileDisplay="block"
-        $justifyContent="space-between"
-        $maxWidth="60em"
-        $mobileMaxWidth="90vw"
-        $margin="auto"
-      >
-        <div
-          $flex="1"
-          $margin="1em"
-          $position="relative"
-          $mobileMinHeight="32vw"
-        >
-          <Image
-            src="/images/stilren.png"
-            layout="fill"
-            objectFit="contain"
-            $borderRadius="8px"
-          />
-        </div>
-        <div $margin="1em" $flex="1">
-          <Hero.Copy
-            $fontWeight="bold"
-            $textAlign="center"
-            $marginBottom=".66em"
-          >
-            CSS is magical
-          </Hero.Copy>
-          <Hero.Copy>
-            <a href="https://github.com/danielwerthen/stilren">Stilren</a> is my
-            experimental library that is all about improving the developer
-            experience of working with CSS. It makes CSS attributes truly first
-            class citizens of the React domain.
-          </Hero.Copy>
-        </div>
+    <Hero
+      $margin="auto"
+      $display="flex"
+      $mobileDisplay="block"
+      $justifyContent="space-between"
+      $maxWidth="60em"
+      $mobileMaxWidth="90vw"
+    >
+      <div $flex="1" $margin="1em" $position="relative" $mobileMinHeight="32vw">
+        <Image
+          src="/images/stilren.png"
+          layout="fill"
+          objectFit="contain"
+          $borderRadius="8px"
+        />
+      </div>
+      <div $margin="1em" $flex="1">
+        <Hero.Copy $fontWeight="bold" $textAlign="center" $marginBottom=".66em">
+          CSS is magical
+        </Hero.Copy>
+        <Hero.Copy>
+          <a href="https://github.com/danielwerthen/stilren">Stilren</a> is my
+          experimental library that is all about improving the developer
+          experience of working with CSS. It makes CSS attributes truly first
+          class citizens of the React domain.
+        </Hero.Copy>
       </div>
     </Hero>
   </>
