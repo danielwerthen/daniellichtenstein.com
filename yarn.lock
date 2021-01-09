@@ -3544,10 +3544,10 @@ static-extend@^0.1.1:
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
 
-stilren@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/stilren/-/stilren-0.3.0.tgz#f381cb7a9ba6616657c47b652e942a6f2c748974"
-  integrity sha512-/VlZZiJXZkcpYIY2j/fbiCx0jnRKJ4Jj70D9hPL6LuQj11nSdzXZuozHxZujIWMz84n7o1rpI3qEWkRP8pKnJw==
+stilren@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/stilren/-/stilren-0.3.2.tgz#a5d83b52a0b2a3836e9fbb2f71921f2c5bbbb059"
+  integrity sha512-dWsMBtmVFNw5JDIo/0PHLAUBbZiGEBsqYZ0VSE0JWSy7CvpQPcKlVBpJWXwpvgypb4S9ORkIeRHZualp52eUCQ==
   dependencies:
     "@dwerthen/react-extension" "^0.0.9-rc2"
     "@types/styletron-engine-atomic" "^1.1.0"

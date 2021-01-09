@@ -15,7 +15,7 @@
     "react-dom": "^16.12.0",
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.6.3",
-    "stilren": "^0.3.0",
+    "stilren": "^0.3.2",
     "styletron-engine-atomic": "^1.4.6"
   },
   "devDependencies": {
