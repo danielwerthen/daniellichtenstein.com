@@ -10,7 +10,7 @@
   "dependencies": {
     "@dwerthen/react-extension": "^0.0.9-rc1",
     "@types/styletron-engine-atomic": "^1.1.0",
-    "next": "^10.0.5",
+    "next": "^11.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "rxjs": "^6.6.3",
